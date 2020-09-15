@@ -1,0 +1,7 @@
+aliases:
+  font_size_small:
+    value: 0.75
+  font_size_medium:
+    value: 1
+  font_size_large:
+    value: 2

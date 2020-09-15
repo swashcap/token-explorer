@@ -1,0 +1,72 @@
+{
+  "aliases": {
+    "color_gray_light": {
+      "value": "#cccccc"
+    },
+    "color_gray_medium": {
+      "value": "#999999"
+    },
+    "color_gray_dark": {
+      "value": "#111111"
+    },
+    "color_red": {
+      "value": "#ff0000"
+    },
+    "color_green": {
+      "value": "#00ff00"
+    },
+    "font_size_small": {
+      "value": 0.75
+    },
+    "font_size_medium": {
+      "value": 1
+    },
+    "font_size_large": {
+      "value": 2
+    }
+  },
+  "props": {
+    "typography_small_size": {
+      "type": "color",
+      "category": "font",
+      "value": "0.75",
+      "originalValue": "{!font_size_small}",
+      "name": "typography_small_size"
+    },
+    "typography_small_color": {
+      "type": "color",
+      "category": "font",
+      "value": "#999999",
+      "originalValue": "{!color_gray_medium}",
+      "name": "typography_small_color"
+    },
+    "typography_medium_size": {
+      "type": "color",
+      "category": "font",
+      "value": "1",
+      "originalValue": "{!font_size_medium}",
+      "name": "typography_medium_size"
+    },
+    "typography_medium_color": {
+      "type": "color",
+      "category": "font",
+      "value": "#111111",
+      "originalValue": "{!color_gray_dark}",
+      "name": "typography_medium_color"
+    },
+    "typography_large_size": {
+      "type": "color",
+      "category": "font",
+      "value": "2",
+      "originalValue": "{!font_size_large}",
+      "name": "typography_large_size"
+    },
+    "typography_large_color": {
+      "type": "color",
+      "category": "font",
+      "value": "#111111",
+      "originalValue": "{!color_gray_dark}",
+      "name": "typography_large_color"
+    }
+  }
+}

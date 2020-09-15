@@ -1,0 +1,9 @@
+{
+  "name": "token-explorer-theo",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "clean": "rm -rf build"
+  },
+  "version": "0.0.1"
+}

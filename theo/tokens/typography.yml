@@ -1,0 +1,19 @@
+props:
+  typography_small_size:
+    value: "{!font_size_small}"
+  typography_small_color:
+    value: "{!color_gray_medium}"
+  typography_medium_size:
+    value: "{!font_size_medium}"
+  typography_medium_color:
+    value: "{!color_gray_dark}"
+  typography_large_size:
+    value: "{!font_size_large}"
+  typography_large_color:
+    value: "{!color_gray_dark}"
+imports:
+  - ./color.yml
+  - ./font.yml
+global:
+  type: color
+  category: font

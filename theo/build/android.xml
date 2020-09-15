@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <color name="TYPOGRAPHY_SMALL_SIZE" category="font">#ff000000</color>
+  <color name="TYPOGRAPHY_SMALL_COLOR" category="font">#ff999999</color>
+  <color name="TYPOGRAPHY_MEDIUM_SIZE" category="font">#ff000000</color>
+  <color name="TYPOGRAPHY_MEDIUM_COLOR" category="font">#ff111111</color>
+  <color name="TYPOGRAPHY_LARGE_SIZE" category="font">#ff000000</color>
+  <color name="TYPOGRAPHY_LARGE_COLOR" category="font">#ff111111</color>
+</resources>

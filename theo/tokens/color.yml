@@ -1,0 +1,11 @@
+aliases:
+  color_gray_light:
+    value: "#cccccc"
+  color_gray_medium:
+    value: "#999999"
+  color_gray_dark:
+    value: "#111111"
+  color_red:
+    value: "#ff0000"
+  color_green:
+    value: "#00ff00"

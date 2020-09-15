@@ -1,0 +1,40 @@
+{
+  "properties": [
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(0, 0, 0)",
+      "name": "typographySmallSize"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(153, 153, 153)",
+      "name": "typographySmallColor"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(0, 0, 0)",
+      "name": "typographyMediumSize"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(17, 17, 17)",
+      "name": "typographyMediumColor"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(0, 0, 0)",
+      "name": "typographyLargeSize"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(17, 17, 17)",
+      "name": "typographyLargeColor"
+    }
+  ]
+}
