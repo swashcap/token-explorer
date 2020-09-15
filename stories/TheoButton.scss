@@ -1,0 +1,78 @@
+@import "../theo/build/web";
+
+.theo-button {
+  border-radius: 999px;
+  border-style: solid;
+  border-width: $button-border-width;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: #{$button-font-family};
+  font-weight: $button-font-weight;
+  line-height: 1;
+  margin: 0;
+
+  [disabled] {
+    cursor: default;
+    opacity: .5;
+  }
+}
+
+// Size
+
+$button-sizes: (
+  "small": (
+    "font-size": $button-small-text-size,
+    "padding": $button-small-padding-vertical $button-small-padding-horizontal
+  ),
+  "medium": (
+    "font-size": $button-medium-text-size,
+    "padding": $button-medium-padding-vertical $button-medium-padding-horizontal
+  ),
+  "large": (
+    "font-size": $button-large-text-size,
+    "padding": $button-large-padding-vertical $button-large-padding-horizontal
+  )
+);
+
+@each $size, $declarations in $button-sizes {
+  .theo-button-#{$size} {
+    @each $property, $value in $declarations {
+      #{$property}: $value;
+    }
+  }
+}
+
+// Variant
+
+.theo-button-primary {
+  background: $button-primary-background-color;
+  border-color: #{$button-primary-border-color};
+  color: $button-primary-text-color;
+
+  &:focus,
+  &:hover {
+    background: $button-primary-background-color-hover;
+    color: $button-primary-text-color-hover;
+  }
+  &:active {
+    background: $button-primary-background-color-active;
+    color: $button-primary-text-color-active;
+  }
+}
+
+.theo-button-secondary {
+  background: $button-secondary-background-color;
+  border-color: #{$button-secondary-border-color};
+  color: $button-secondary-text-color;
+
+  &:focus,
+  &:hover {
+    background: $button-secondary-background-color-hover;
+    color: $button-secondary-text-color-hover;
+  }
+  &:active {
+    background: $button-secondary-background-color-active;
+    color: $button-secondary-text-color-active;
+  }
+}

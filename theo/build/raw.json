@@ -1,7 +1,16 @@
 {
   "aliases": {
-    "color_gray_light": {
-      "value": "#cccccc"
+    "color_green": {
+      "value": "#00ff00"
+    },
+    "color_white": {
+      "value": "#ffffff"
+    },
+    "color_blue_light": {
+      "value": "#2142c9"
+    },
+    "color_red": {
+      "value": "#ff0000"
     },
     "color_gray_medium": {
       "value": "#999999"
@@ -9,64 +18,222 @@
     "color_gray_dark": {
       "value": "#111111"
     },
-    "color_red": {
-      "value": "#ff0000"
+    "color_gray_light": {
+      "value": "#cccccc"
     },
-    "color_green": {
-      "value": "#00ff00"
+    "color_blue_medium": {
+      "value": "#002bbd"
+    },
+    "color_blue_dark": {
+      "value": "#002966"
+    },
+    "font_family": {
+      "value": "sans-serif"
     },
     "font_size_small": {
-      "value": 0.75
+      "value": "0.75rem"
     },
     "font_size_medium": {
-      "value": 1
+      "value": "1rem"
     },
     "font_size_large": {
-      "value": 2
+      "value": "2rem"
+    },
+    "spacing_100": {
+      "value": ".5em"
+    },
+    "spacing_200": {
+      "value": "1em"
+    },
+    "spacing_300": {
+      "value": "1.5em"
+    },
+    "spacing_400": {
+      "value": "2em"
     }
   },
   "props": {
-    "typography_small_size": {
-      "type": "color",
+    "button_border_width": {
+      "type": "size",
       "category": "font",
-      "value": "0.75",
-      "originalValue": "{!font_size_small}",
-      "name": "typography_small_size"
+      "value": "1px",
+      "originalValue": "1px",
+      "name": "button_border_width"
     },
-    "typography_small_color": {
-      "type": "color",
+    "button_medium_padding_vertical": {
+      "type": "size",
       "category": "font",
-      "value": "#999999",
-      "originalValue": "{!color_gray_medium}",
-      "name": "typography_small_color"
+      "value": ".5em",
+      "originalValue": "{!spacing_100}",
+      "name": "button_medium_padding_vertical"
     },
-    "typography_medium_size": {
-      "type": "color",
+    "button_large_text_size": {
+      "type": "size",
       "category": "font",
-      "value": "1",
+      "value": "1rem",
       "originalValue": "{!font_size_medium}",
-      "name": "typography_medium_size"
+      "name": "button_large_text_size"
     },
-    "typography_medium_color": {
+    "button_large_padding_horizontal": {
+      "type": "size",
+      "category": "font",
+      "value": "1.5em",
+      "originalValue": "{!spacing_300}",
+      "name": "button_large_padding_horizontal"
+    },
+    "button_secondary_text_color_hover": {
       "type": "color",
       "category": "font",
-      "value": "#111111",
-      "originalValue": "{!color_gray_dark}",
-      "name": "typography_medium_color"
+      "value": "#002bbd",
+      "originalValue": "{!color_blue_medium}",
+      "name": "button_secondary_text_color_hover"
     },
-    "typography_large_size": {
+    "button_secondary_background_color_hover": {
       "type": "color",
       "category": "font",
-      "value": "2",
-      "originalValue": "{!font_size_large}",
-      "name": "typography_large_size"
+      "value": "#ffffff",
+      "originalValue": "{!color_white}",
+      "name": "button_secondary_background_color_hover"
     },
-    "typography_large_color": {
+    "button_font_family": {
+      "type": "string",
+      "category": "font",
+      "value": "sans-serif",
+      "originalValue": "{!font_family}",
+      "name": "button_font_family"
+    },
+    "button_secondary_border_color": {
+      "type": "string",
+      "category": "font",
+      "value": "currentColor",
+      "originalValue": "currentColor",
+      "name": "button_secondary_border_color"
+    },
+    "button_secondary_text_color": {
       "type": "color",
       "category": "font",
-      "value": "#111111",
-      "originalValue": "{!color_gray_dark}",
-      "name": "typography_large_color"
+      "value": "#2142c9",
+      "originalValue": "{!color_blue_light}",
+      "name": "button_secondary_text_color"
+    },
+    "button_primary_background_color_active": {
+      "type": "color",
+      "category": "font",
+      "value": "#002966",
+      "originalValue": "{!color_blue_dark}",
+      "name": "button_primary_background_color_active"
+    },
+    "button_small_padding_vertical": {
+      "type": "size",
+      "category": "font",
+      "value": ".5em",
+      "originalValue": "{!spacing_100}",
+      "name": "button_small_padding_vertical"
+    },
+    "button_primary_text_color_active": {
+      "type": "color",
+      "category": "font",
+      "value": "#ffffff",
+      "originalValue": "{!color_white}",
+      "name": "button_primary_text_color_active"
+    },
+    "button_secondary_background_color": {
+      "type": "color",
+      "category": "font",
+      "value": "#ffffff",
+      "originalValue": "{!color_white}",
+      "name": "button_secondary_background_color"
+    },
+    "button_small_text_size": {
+      "type": "size",
+      "category": "font",
+      "value": "0.75rem",
+      "originalValue": "{!font_size_small}",
+      "name": "button_small_text_size"
+    },
+    "button_medium_padding_horizontal": {
+      "type": "size",
+      "category": "font",
+      "value": "1em",
+      "originalValue": "{!spacing_200}",
+      "name": "button_medium_padding_horizontal"
+    },
+    "button_large_padding_vertical": {
+      "type": "size",
+      "category": "font",
+      "value": "1em",
+      "originalValue": "{!spacing_200}",
+      "name": "button_large_padding_vertical"
+    },
+    "button_medium_text_size": {
+      "type": "size",
+      "category": "font",
+      "value": "1rem",
+      "originalValue": "{!font_size_medium}",
+      "name": "button_medium_text_size"
+    },
+    "button_small_padding_horizontal": {
+      "type": "size",
+      "category": "font",
+      "value": "1em",
+      "originalValue": "{!spacing_200}",
+      "name": "button_small_padding_horizontal"
+    },
+    "button_primary_text_color_hover": {
+      "type": "color",
+      "category": "font",
+      "value": "#ffffff",
+      "originalValue": "{!color_white}",
+      "name": "button_primary_text_color_hover"
+    },
+    "button_primary_background_color_hover": {
+      "type": "color",
+      "category": "font",
+      "value": "#002bbd",
+      "originalValue": "{!color_blue_medium}",
+      "name": "button_primary_background_color_hover"
+    },
+    "button_primary_border_color": {
+      "type": "string",
+      "category": "font",
+      "value": "transparent",
+      "originalValue": "transparent",
+      "name": "button_primary_border_color"
+    },
+    "button_primary_text_color": {
+      "type": "color",
+      "category": "font",
+      "value": "#ffffff",
+      "originalValue": "{!color_white}",
+      "name": "button_primary_text_color"
+    },
+    "button_font_weight": {
+      "type": "number",
+      "category": "font",
+      "value": 600,
+      "originalValue": 600,
+      "name": "button_font_weight"
+    },
+    "button_secondary_background_color_active": {
+      "type": "color",
+      "category": "font",
+      "value": "#ffffff",
+      "originalValue": "{!color_white}",
+      "name": "button_secondary_background_color_active"
+    },
+    "button_primary_background_color": {
+      "type": "color",
+      "category": "font",
+      "value": "#2142c9",
+      "originalValue": "{!color_blue_light}",
+      "name": "button_primary_background_color"
+    },
+    "button_secondary_text_color_active": {
+      "type": "color",
+      "category": "font",
+      "value": "#002966",
+      "originalValue": "{!color_blue_dark}",
+      "name": "button_secondary_text_color_active"
     }
   }
 }

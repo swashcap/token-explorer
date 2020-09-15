@@ -1,40 +1,160 @@
 {
   "properties": [
     {
-      "type": "color",
+      "type": "size",
       "category": "font",
-      "value": "rgb(0, 0, 0)",
-      "name": "typographySmallSize"
+      "value": "1px",
+      "name": "buttonBorderWidth"
+    },
+    {
+      "type": "size",
+      "category": "font",
+      "value": ".5em",
+      "name": "buttonMediumPaddingVertical"
+    },
+    {
+      "type": "size",
+      "category": "font",
+      "value": "16",
+      "name": "buttonLargeTextSize"
+    },
+    {
+      "type": "size",
+      "category": "font",
+      "value": "1.5em",
+      "name": "buttonLargePaddingHorizontal"
     },
     {
       "type": "color",
       "category": "font",
-      "value": "rgb(153, 153, 153)",
-      "name": "typographySmallColor"
+      "value": "rgb(0, 43, 189)",
+      "name": "buttonSecondaryTextColorHover"
     },
     {
       "type": "color",
       "category": "font",
-      "value": "rgb(0, 0, 0)",
-      "name": "typographyMediumSize"
+      "value": "rgb(255, 255, 255)",
+      "name": "buttonSecondaryBackgroundColorHover"
+    },
+    {
+      "type": "string",
+      "category": "font",
+      "value": "sans-serif",
+      "name": "buttonFontFamily"
+    },
+    {
+      "type": "string",
+      "category": "font",
+      "value": "currentColor",
+      "name": "buttonSecondaryBorderColor"
     },
     {
       "type": "color",
       "category": "font",
-      "value": "rgb(17, 17, 17)",
-      "name": "typographyMediumColor"
+      "value": "rgb(33, 66, 201)",
+      "name": "buttonSecondaryTextColor"
     },
     {
       "type": "color",
       "category": "font",
-      "value": "rgb(0, 0, 0)",
-      "name": "typographyLargeSize"
+      "value": "rgb(0, 41, 102)",
+      "name": "buttonPrimaryBackgroundColorActive"
+    },
+    {
+      "type": "size",
+      "category": "font",
+      "value": ".5em",
+      "name": "buttonSmallPaddingVertical"
     },
     {
       "type": "color",
       "category": "font",
-      "value": "rgb(17, 17, 17)",
-      "name": "typographyLargeColor"
+      "value": "rgb(255, 255, 255)",
+      "name": "buttonPrimaryTextColorActive"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(255, 255, 255)",
+      "name": "buttonSecondaryBackgroundColor"
+    },
+    {
+      "type": "size",
+      "category": "font",
+      "value": "12",
+      "name": "buttonSmallTextSize"
+    },
+    {
+      "type": "size",
+      "category": "font",
+      "value": "1em",
+      "name": "buttonMediumPaddingHorizontal"
+    },
+    {
+      "type": "size",
+      "category": "font",
+      "value": "1em",
+      "name": "buttonLargePaddingVertical"
+    },
+    {
+      "type": "size",
+      "category": "font",
+      "value": "16",
+      "name": "buttonMediumTextSize"
+    },
+    {
+      "type": "size",
+      "category": "font",
+      "value": "1em",
+      "name": "buttonSmallPaddingHorizontal"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(255, 255, 255)",
+      "name": "buttonPrimaryTextColorHover"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(0, 43, 189)",
+      "name": "buttonPrimaryBackgroundColorHover"
+    },
+    {
+      "type": "string",
+      "category": "font",
+      "value": "transparent",
+      "name": "buttonPrimaryBorderColor"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(255, 255, 255)",
+      "name": "buttonPrimaryTextColor"
+    },
+    {
+      "type": "number",
+      "category": "font",
+      "value": 600,
+      "name": "buttonFontWeight"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(255, 255, 255)",
+      "name": "buttonSecondaryBackgroundColorActive"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(33, 66, 201)",
+      "name": "buttonPrimaryBackgroundColor"
+    },
+    {
+      "type": "color",
+      "category": "font",
+      "value": "rgb(0, 41, 102)",
+      "name": "buttonSecondaryTextColorActive"
     }
   ]
 }

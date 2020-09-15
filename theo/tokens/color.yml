@@ -1,4 +1,10 @@
 aliases:
+  color_blue_light:
+    value: "#2142c9"
+  color_blue_medium:
+    value: "#002bbd"
+  color_blue_dark:
+    value: "#002966"
   color_gray_light:
     value: "#cccccc"
   color_gray_medium:
@@ -9,3 +15,5 @@ aliases:
     value: "#ff0000"
   color_green:
     value: "#00ff00"
+  color_white:
+    value: "#ffffff"

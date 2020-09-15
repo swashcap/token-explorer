@@ -1,0 +1,86 @@
+props:
+  button_border_width:
+    type: size
+    value: "1px"
+  button_font_family:
+    type: string
+    value: "{!font_family}"
+  button_font_weight:
+    type: number
+    value: 500
+
+  # Size: Small
+  button_small_text_size:
+    type: size
+    value: "{!font_size_small}"
+  button_small_padding_horizontal:
+    type: size
+    value: "{!spacing_200}"
+  button_small_padding_vertical:
+    type: size
+    value: "{!spacing_100}"
+
+  # Size: Medium
+  button_medium_text_size:
+    type: size
+    value: "{!font_size_medium}"
+  button_medium_padding_horizontal:
+    type: size
+    value: "{!spacing_200}"
+  button_medium_padding_vertical:
+    type: size
+    value: "{!spacing_100}"
+
+  # Size: Large
+  button_large_text_size:
+    type: size
+    value: "{!font_size_medium}"
+  button_large_padding_horizontal:
+    type: size
+    value: "{!spacing_300}"
+  button_large_padding_vertical:
+    type: size
+    value: "{!spacing_200}"
+
+  # Variant: Primary
+  button_primary_background_color:
+    value: "{!color_blue_light}"
+  button_primary_border_color:
+    type: string
+    value: transparent
+  button_primary_text_color:
+    value: "{!color_white}"
+  button_primary_background_color_hover:
+    value: "{!color_blue_medium}"
+  button_primary_text_color_hover:
+    value: "{!color_white}"
+  button_primary_background_color_active:
+    value: "{!color_blue_dark}"
+  button_primary_text_color_active:
+    value: "{!color_white}"
+
+  # Variant: Secondary
+  button_secondary_background_color:
+    value: "{!color_white}"
+  button_secondary_border_color:
+    type: string
+    value: currentColor
+  button_secondary_text_color:
+    value: "{!color_blue_light}"
+  button_secondary_background_color_hover:
+    value: "{!color_white}"
+  button_secondary_text_color_hover:
+    value: "{!color_blue_medium}"
+  button_secondary_background_color_active:
+    value: "{!color_white}"
+  button_secondary_text_color_active:
+    value: "{!color_blue_dark}"
+
+imports:
+  - ./color.yml
+  - ./font.yml
+  - ./spacing.yml
+
+global:
+  type: color
+  category: font

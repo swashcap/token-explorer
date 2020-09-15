@@ -1,10 +1,24 @@
 {
   "author": "Cory Reed <swashcap@gmail.com>",
-  "dependencies": {},
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "description": "An exploration of design system token solutions.",
   "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/react": "^6.0.21",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2",
     "style-dictionary": "^2.10.1",
-    "theo": "^8.1.5"
+    "theo": "^8.1.5",
+    "typescript": "^3.9.7"
   },
   "keywords": [
     "design system",
@@ -14,5 +28,9 @@
   "license": "MIT",
   "name": "token-explorer",
   "private": true,
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
 }

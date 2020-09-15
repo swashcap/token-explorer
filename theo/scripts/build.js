@@ -8,7 +8,7 @@ const optionsList = [
       type: "raw.json"
     },
     transform: {
-      file: path.resolve(__dirname, "../tokens/typography.yml"),
+      file: path.resolve(__dirname, "../tokens/button.yml"),
       type: "raw"
     }
   },
@@ -17,7 +17,7 @@ const optionsList = [
       type: "scss"
     },
     transform: {
-      file: path.resolve(__dirname, "../tokens/typography.yml"),
+      file: path.resolve(__dirname, "../tokens/button.yml"),
       type: "web"
     }
   },
@@ -26,7 +26,7 @@ const optionsList = [
       type: "ios.json"
     },
     transform: {
-      file: path.resolve(__dirname, "../tokens/typography.yml"),
+      file: path.resolve(__dirname, "../tokens/button.yml"),
       type: "ios"
     }
   },
@@ -35,7 +35,7 @@ const optionsList = [
       type: "android.xml",
     },
     transform: {
-      file: path.resolve(__dirname, "../tokens/typography.yml"),
+      file: path.resolve(__dirname, "../tokens/button.yml"),
       type: "android"
     }
   }

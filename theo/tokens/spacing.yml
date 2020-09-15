@@ -1,0 +1,12 @@
+global:
+  type: size
+  category: spacing
+aliases:
+  spacing_100:
+    value: ".5em"
+  spacing_200:
+    value: "1em"
+  spacing_300:
+    value: "1.5em"
+  spacing_400:
+    value: "2em"

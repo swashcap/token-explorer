@@ -1,7 +1,9 @@
 aliases:
+  font_family:
+    value: sans-serif
   font_size_small:
-    value: 0.75
+    value: "0.75rem"
   font_size_medium:
-    value: 1
+    value: "1rem"
   font_size_large:
-    value: 2
+    value: "2rem"

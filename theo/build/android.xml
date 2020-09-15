@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-  <color name="TYPOGRAPHY_SMALL_SIZE" category="font">#ff000000</color>
-  <color name="TYPOGRAPHY_SMALL_COLOR" category="font">#ff999999</color>
-  <color name="TYPOGRAPHY_MEDIUM_SIZE" category="font">#ff000000</color>
-  <color name="TYPOGRAPHY_MEDIUM_COLOR" category="font">#ff111111</color>
-  <color name="TYPOGRAPHY_LARGE_SIZE" category="font">#ff000000</color>
-  <color name="TYPOGRAPHY_LARGE_COLOR" category="font">#ff111111</color>
+  <dimen name="BUTTON_BORDER_WIDTH" category="font">1dp</dimen>
+  <dimen name="BUTTON_MEDIUM_PADDING_VERTICAL" category="font">.5em</dimen>
+  <dimen name="BUTTON_LARGE_TEXT_SIZE" category="font">16</dimen>
+  <dimen name="BUTTON_LARGE_PADDING_HORIZONTAL" category="font">1.5em</dimen>
+  <color name="BUTTON_SECONDARY_TEXT_COLOR_HOVER" category="font">#ff002bbd</color>
+  <color name="BUTTON_SECONDARY_BACKGROUND_COLOR_HOVER" category="font">#ffffffff</color>
+  <string name="BUTTON_FONT_FAMILY" category="font">sans-serif</string>
+  <string name="BUTTON_SECONDARY_BORDER_COLOR" category="font">currentColor</string>
+  <color name="BUTTON_SECONDARY_TEXT_COLOR" category="font">#ff2142c9</color>
+  <color name="BUTTON_PRIMARY_BACKGROUND_COLOR_ACTIVE" category="font">#ff002966</color>
+  <dimen name="BUTTON_SMALL_PADDING_VERTICAL" category="font">.5em</dimen>
+  <color name="BUTTON_PRIMARY_TEXT_COLOR_ACTIVE" category="font">#ffffffff</color>
+  <color name="BUTTON_SECONDARY_BACKGROUND_COLOR" category="font">#ffffffff</color>
+  <dimen name="BUTTON_SMALL_TEXT_SIZE" category="font">12</dimen>
+  <dimen name="BUTTON_MEDIUM_PADDING_HORIZONTAL" category="font">1em</dimen>
+  <dimen name="BUTTON_LARGE_PADDING_VERTICAL" category="font">1em</dimen>
+  <dimen name="BUTTON_MEDIUM_TEXT_SIZE" category="font">16</dimen>
+  <dimen name="BUTTON_SMALL_PADDING_HORIZONTAL" category="font">1em</dimen>
+  <color name="BUTTON_PRIMARY_TEXT_COLOR_HOVER" category="font">#ffffffff</color>
+  <color name="BUTTON_PRIMARY_BACKGROUND_COLOR_HOVER" category="font">#ff002bbd</color>
+  <string name="BUTTON_PRIMARY_BORDER_COLOR" category="font">transparent</string>
+  <color name="BUTTON_PRIMARY_TEXT_COLOR" category="font">#ffffffff</color>
+  <integer name="BUTTON_FONT_WEIGHT" category="font">600</integer>
+  <color name="BUTTON_SECONDARY_BACKGROUND_COLOR_ACTIVE" category="font">#ffffffff</color>
+  <color name="BUTTON_PRIMARY_BACKGROUND_COLOR" category="font">#ff2142c9</color>
+  <color name="BUTTON_SECONDARY_TEXT_COLOR_ACTIVE" category="font">#ff002966</color>
 </resources>
