@@ -1,0 +1,11 @@
+{
+  "author": "Cory Reed <swashcap@gmail.com>",
+  "dependencies": {},
+  "description": "An exploration of design system token solutions.",
+  "devDependencies": {},
+  "keywords": ["design system", "tokens", "design system tokens"],
+  "license": "MIT",
+  "name": "token-explorer",
+  "private": true,
+  "version": "0.0.1"
+}
