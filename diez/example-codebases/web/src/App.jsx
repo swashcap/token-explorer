@@ -10,13 +10,9 @@ const Animation = (props) => {
   }, []);
 
   return (
-    <div
-      className={styles.animation}
-      ref={animation}
-      style={props.style}
-    />
+    <div className={styles.animation} ref={animation} style={props.style} />
   );
-}
+};
 
 const App = () => {
   const [ds, setDs] = useState();
@@ -49,7 +45,11 @@ const App = () => {
               <Animation lottie={ds.loadingAnimation} />
               <p className={styles.body}>{ds.strings.helper}</p>
               <div className={styles.footer}>
-                  Refer to <a href="https://diez.org/getting-started/" target="_blank">The Guides</a> for more information.
+                Refer to{' '}
+                <a href="https://diez.org/getting-started/" target="_blank">
+                  The Guides
+                </a>{' '}
+                for more information.
               </div>
             </div>
           </div>
@@ -57,6 +57,6 @@ const App = () => {
       </div>
     </div>
   );
-}
+};
 
 export default App;

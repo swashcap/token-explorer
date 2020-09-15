@@ -35,7 +35,8 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "format": "prettier --write '*.js' '{.storybook,diez,stories,style-dictionary,theo}/**/*.{css,js,jsx,scss,ts,tsx}'", 
+    "storybook": "start-storybook -p 6006"
   }
 }

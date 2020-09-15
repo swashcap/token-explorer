@@ -1,4 +1,4 @@
-import {prefab} from '@diez/engine';
+import { prefab } from '@diez/engine';
 
 /**
  * Defining the interface of your component's data enables you to instantiate your own
@@ -25,8 +25,9 @@ export class Margin extends prefab<MarginData>() {
   /**
    * Let's add in a helper method for defining margins (inspired by CSS shorthand).
    */
-  static simple (vertical: number, maybeHorizontal?: number) {
-    const horizontal = (maybeHorizontal === undefined) ? vertical : maybeHorizontal;
+  static simple(vertical: number, maybeHorizontal?: number) {
+    const horizontal =
+      maybeHorizontal === undefined ? vertical : maybeHorizontal;
 
     return new Margin({
       top: vertical,

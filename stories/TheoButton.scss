@@ -1,4 +1,4 @@
-@import "../theo/build/web";
+@import '../theo/build/web';
 
 .theo-button {
   border-radius: 999px;
@@ -14,25 +14,25 @@
 
   [disabled] {
     cursor: default;
-    opacity: .5;
+    opacity: 0.5;
   }
 }
 
 // Size
 
 $button-sizes: (
-  "small": (
-    "font-size": $button-small-text-size,
-    "padding": $button-small-padding-vertical $button-small-padding-horizontal
+  'small': (
+    'font-size': $button-small-text-size,
+    'padding': $button-small-padding-vertical $button-small-padding-horizontal,
   ),
-  "medium": (
-    "font-size": $button-medium-text-size,
-    "padding": $button-medium-padding-vertical $button-medium-padding-horizontal
+  'medium': (
+    'font-size': $button-medium-text-size,
+    'padding': $button-medium-padding-vertical $button-medium-padding-horizontal,
   ),
-  "large": (
-    "font-size": $button-large-text-size,
-    "padding": $button-large-padding-vertical $button-large-padding-horizontal
-  )
+  'large': (
+    'font-size': $button-large-text-size,
+    'padding': $button-large-padding-vertical $button-large-padding-horizontal,
+  ),
 );
 
 @each $size, $declarations in $button-sizes {
