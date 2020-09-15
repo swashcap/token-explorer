@@ -1,0 +1,9 @@
+{
+  "name": "token-explorer-style-dictionary",
+  "private": true,
+  "scripts": {
+    "build": "../node_modules/.bin/style-dictionary build",
+    "clean": "../node_modules/.bin/style-dictionary clean"
+  },
+  "version": "0.0.1"
+}
